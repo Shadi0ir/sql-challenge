@@ -11,7 +11,7 @@ CREATE TABLE "departments" (
      )
 );
 
-CREATE TABLE "dept_emp" (
+CREATE TABLE "dept_employee" (
     "emp_no" INT   NOT NULL,
     "dept_no" VARCHAR   NOT NULL,
     "from_date" DATE   NOT NULL,
